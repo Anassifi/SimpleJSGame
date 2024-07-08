@@ -36,3 +36,22 @@ class Player extends Character {
     console.log(`Your new stats are ${this.stats}`);
   }
 }
+
+
+//Adding prompts to start the game
+//let playerName = prompt('Enter your username');
+//let health = 100;
+//let attack = 1;
+
+let timer = new Date();
+console.log(timer.getTime());
+//Game loop
+// (function (player){
+//   while (player) {
+//     let player = new Character();
+//     if (player.health > 0) {
+//       console.log(player);
+//     }
+//     player.health - 10;
+//   }
+// })()
